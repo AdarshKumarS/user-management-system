@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "firstName": "Adarsh",
+      "lastName": "Raj",
+      "email": "adarsh.kumar.1dev@gmail.com",
+      "phone": 8651666695,
+      "address": "Delhi",
+      "id": "93c4"
+    },
+    {
+      "id": "24c4",
+      "firstName": "Rohit",
+      "lastName": "Singh",
+      "email": "rohit.singh@gmail.com",
+      "phone": 8677667567,
+      "address": "Noida"
+    }
+  ]
+}

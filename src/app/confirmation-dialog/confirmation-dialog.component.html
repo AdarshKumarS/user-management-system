@@ -1,0 +1,11 @@
+<div class="dialogContainer">
+   <div class="dialogHeader">
+
+    <h1>{{dialogData['dialogHeader']}}</h1>
+    <h2>{{dialogData['dialogDiscription']}}</h2>
+   </div>
+   <div class="dialogButton">
+    <button (click)="cancel()" class="dialogCancelButton">{{dialogData['closeButton']}}</button>
+    <button (click)="done()" class="dialogOkButton">{{dialogData['actionButton']}}</button>
+   </div>
+</div>

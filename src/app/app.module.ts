@@ -1,20 +1,27 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { UserModule } from './user/user.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ConfirmationDialogComponent } from './confirmation-dialog/confirmation-dialog.component';
+import { ToastrModule } from 'ngx-toastr';
+import { NgxSpinnerModule } from "ngx-spinner";
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConfirmationDialogComponent
   ],
   imports: [
+    UserModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
+    NgxSpinnerModule.forRoot(),
   ],
-  providers: [
-    provideClientHydration()
-  ],
-  bootstrap: [AppComponent]
+  bootstrap:[AppComponent]
 })
 export class AppModule { }
