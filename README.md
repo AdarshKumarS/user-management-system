@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Used Json-Server for data : --
-Run `json-server -w db.json` to run json-server and confirm once it is running on `http://localhost:4200/`.
+Run `json-server -w db.json` to run json-server and confirm once it is running on `http://localhost:3000/`.
